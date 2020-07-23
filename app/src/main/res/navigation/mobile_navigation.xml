@@ -36,6 +36,13 @@
     tools:layout="@layout/fragment_dashboard"/>
 
   <fragment
+    android:id="@+id/blank_fragment"
+    android:label="@string/blank_fragment"
+    android:name="io.jabooty.BlankFragment"
+    tools:layout="@layout/blank_fragment"/>
+
+
+  <fragment
     android:id="@+id/navigation_notifications"
     android:label="@string/title_notifications"
     android:name="io.jabooty.ui.notifications.NotificationsFragment"
